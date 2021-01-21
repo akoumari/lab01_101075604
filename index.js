@@ -38,7 +38,7 @@ fs.createReadStream("input_countries.csv")
      fs.writeFile("usa.txt", makeContent(usa), (err)=>{
             console.log("Write Successful")
         })
-        console.log("The beacons has been lit sir. This must mean the deed was done")
+        console.log("The beacon has been lit sir. This must mean the deed was done")
 
     });
 
